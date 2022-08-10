@@ -4,6 +4,6 @@ build:
   commands:
     build:
       - pip install pipenv
-      - pipenv install -r requirement
+      - pipenv install -r requirements.txt
 run:
   command: uvicorn main:app --host 0.0.0.0 --port 80
